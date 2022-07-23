@@ -1,0 +1,24 @@
+/*定義animation*/
+@keyframes change-color{
+    /*百分比表示到達時間比例時的動作*/
+    0% {background-color:red; top:10px; left:10px;}
+    20% {background-color:orange; top:20px; left:20px;}
+    40% {background-color:yellow; top:30px; left:30px;}
+    60% {background-color:green; top:40px; left:40px;}
+    80% {background-color:blue; top:50px; left:50px;}
+    100% {background-color:purple; top:60px; left:60px;}
+}
+
+.box{
+    width:200px;
+    height:200px;
+    background-color:grey;
+    position:relative;
+}
+
+.box-animation{
+    animation-name:change-color;
+    animation-duration:1s; /*動畫持續時間*/
+    animation-iteration-count:infinite; /*動畫跑的次數*/
+    animation-delay:2s; /*動畫延遲時間*/
+}

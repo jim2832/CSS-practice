@@ -1,0 +1,31 @@
+.container{
+    display:flex;
+    flex-wrap:wrap; /*如果寬度不夠就自動換行*/
+    flex-direction:column-reverse; /*把主軸改成由下而上*/
+    height:300px;
+    border:1px solid red;
+    justify-content:center; /*主軸置中*/
+    align-items:center; /*次軸置中(若有換行則要使用align-content)*/
+}
+
+.container div{
+    border:1px solid rgb(202, 201, 201);
+    padding:10px;
+    width:100px;
+    height:20px;
+}
+
+.box-1{
+    flex:1; /* flex:1 代表拿網頁比例的1等份 */
+    order:2 /* order表示排序的順序 */
+}
+
+.box-2{
+    flex:1;
+    order:1
+}
+
+.box-3{
+    flex:1;
+    order:3
+}
