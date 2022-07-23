@@ -1,0 +1,18 @@
+/*class用.來寫*/
+.champion{
+    color:red;
+}
+
+.streamer{
+    color:darkcyan;
+}
+
+.background-grey{
+    background-color: gray;
+}
+
+/*id用#來寫*/
+#css-1{
+    color:yellow;
+    background-color:gray;
+}
